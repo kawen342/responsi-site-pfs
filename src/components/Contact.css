@@ -1,0 +1,74 @@
+/* Styling untuk kontainer utama form */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0000003a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(230, 0, 0, 0.1);
+  }
+  
+  /* Judul Form */
+  .contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000; /* Warna kuning */
+  }
+  
+  /* Label input */
+  .contact-container .form-label {
+    font-weight: bold;
+    color: #000000; /* Warna kuning */
+  }
+  
+  /* Input dan Textarea */
+  .contact-container .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000000; /* Warna kuning */
+    background-color: #333; /* Tambahkan latar belakang gelap agar teks kuning terlihat jelas */
+  }
+  
+  .contact-container .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+  /* Tombol Kirim */
+  .contact-container .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #000000; /* Warna kuning untuk teks tombol */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-container .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsif untuk layar kecil */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 15px;
+    }
+  
+    .contact-container h2 {
+      font-size: 24px;
+    }
+  
+    .contact-container .btn-primary {
+      font-size: 14px;
+    }
+  }
+  

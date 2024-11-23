@@ -1,0 +1,22 @@
+/* Reset margin dan padding */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Pastikan body dan html mengisi seluruh tinggi viewport */
+}
+
+/* Kontainer utama aplikasi */
+#root {
+  display: flex;
+  flex-direction: column; /* Atur layout menjadi kolom */
+  min-height: 100vh; /* Memastikan kontainer utama memenuhi viewport */
+}
+
+/* Footer */
+footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: auto; /* Pastikan footer berada di bagian bawah */
+}
